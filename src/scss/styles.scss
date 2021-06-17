@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("../img/mj.jpg");
+    
+    
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 5rem;
+        width: 100%;
+        height: 100%;
+
+    }
+    
+    .content {
+        flex: 1 0;
+        width: 35%;
+        display: flex;
+        
+
+        .welcome-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: auto 0;
+            width: 100%;
+            background-color: rgba(#fff, 0.67);
+            height: 80%;
+
+            .welcome-title {
+                // width: 100
+                margin: 0 auto;
+                h2 {
+                    font-size: 4.5rem;
+                    margin-bottom: 2rem;
+                }
+            }
+
+            .input-container {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .input {
+                    width: 65%;
+                    margin-bottom: .5rem;
+                    
+                    input[type="text"] {
+                        height: 2.25rem;
+                        width: 100%;
+                        outline: none;
+                        padding: 0 .5rem;
+                        color: rgba(#000,1);
+                        font-size: 1.1rem;
+                        font-weight: 500;
+                        border: none;
+                        box-shadow: 0px 3px 3px rgba(#000000, .16);
+                    }
+                }
+
+                .submit-button {
+                    margin-top: 1.5rem;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;              
+                    button {
+                        padding: .6rem .7rem;
+                        color: #fff;
+                        background-color: #000;
+                        border: none;
+                        font-weight: 500;
+                        border-radius: 17px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        
+    }
+}

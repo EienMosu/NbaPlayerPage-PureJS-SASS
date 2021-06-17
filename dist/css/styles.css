@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../img/mj.jpg"); }
+  body .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5rem;
+    width: 100%;
+    height: 100%; }
+  body .content {
+    flex: 1 0;
+    width: 35%;
+    display: flex; }
+    body .content .welcome-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: auto 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.67);
+      height: 80%; }
+      body .content .welcome-container .welcome-title {
+        margin: 0 auto; }
+        body .content .welcome-container .welcome-title h2 {
+          font-size: 4.5rem;
+          margin-bottom: 2rem; }
+      body .content .welcome-container .input-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        body .content .welcome-container .input-container .input {
+          width: 65%;
+          margin-bottom: .5rem; }
+          body .content .welcome-container .input-container .input input[type="text"] {
+            height: 2.25rem;
+            width: 100%;
+            outline: none;
+            padding: 0 .5rem;
+            color: black;
+            font-size: 1.1rem;
+            font-weight: 500;
+            border: none;
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.16); }
+        body .content .welcome-container .input-container .submit-button {
+          margin-top: 1.5rem;
+          width: 100%;
+          display: flex;
+          justify-content: center; }
+          body .content .welcome-container .input-container .submit-button button {
+            padding: .6rem .7rem;
+            color: #fff;
+            background-color: #000;
+            border: none;
+            font-weight: 500;
+            border-radius: 17px;
+            cursor: pointer; }

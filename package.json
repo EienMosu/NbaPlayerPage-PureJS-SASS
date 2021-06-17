@@ -1,0 +1,15 @@
+{
+  "name": "nba",
+  "version": "1.0.0",
+  "description": "NBA Players",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "node-sass --watch src/scss -o dist/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

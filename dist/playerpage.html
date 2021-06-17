@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/playerpage.css" />
+		<title>NBA PLAYER | PlayerPage</title>
+	</head>
+	<body>
+		<main class="container">
+			<header class="navigation">
+				<nav class="navbar">
+					<div class="logo">
+						<img src="./img/logo.png" alt="logo" />
+					</div>
+					<div class="username">
+						<span class="username"></span>
+					</div>
+				</nav>
+			</header>
+			<section class="content">
+				<div class="table-container">
+					<div class="loading">
+						<div class="loader"></div>
+						<span>LOADING ...</span>
+					</div>
+					<div class="table-data hide">
+						<div class="filter">
+							<div class="search">
+								<div class="search-input">
+									<input type="text" name="" placeholder="Search" id="search" />
+								</div>
+							</div>
+							<div class="position-filter">
+								<select name="" id="position-filter">
+									<option value="">Filter by Position</option>
+									<option value="C">C</option>
+									<option value="F">F</option>
+									<option value="G">G</option>
+								</select>
+					   		</div>
+							<div id="button-as">
+								<button id="click-as">Ascending by Name</button>
+								<button id="click-des">Descending by Name</button>
+							</div>
+							<div class="order-filter"></div>
+						</div>
+						<div class="table"></div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="./js/playerpage.js"></script>
+	</body>
+</html>
